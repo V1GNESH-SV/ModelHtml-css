@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Oleo+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Mate+SC&family=Oleo+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mate SC", serif;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.95), rgb(0, 55, 79) , rgb(9, 93, 134), rgb(15, 155, 217));
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+#logo{
+      font-family: "Oleo Script", system-ui;
+     font-weight: lighter; 
+     font-size: 80px;
+}
+#description{
+    margin: -20px 0px 20px 200px;
+    font-size: 20px;
+}
+nav ul {
+    background-color: black;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li  a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav ul li  a:hover{
+    color: rgb(15, 155, 217);
+    font-size: 18px;
+}
+nav ul li {
+    display: flex;
+}
+aside {
+    flex: 1;
+
+    height: 700px;
+    padding: 20px;
+    background: #e9ecef;
+    margin-left: 20px;
+    width: 300px;
+    float: left;
+}
+#ul{
+    line-height: 50px;
+    
+}
+#ul li{
+    list-style-type: disc;
+    
+}
+
+
+.column {
+    display: block;
+    width: 800px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 0 10px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .column img{
+}
+.row {
+    margin: 0 -5px;
+    width: 100%;
+}
+.card{
+    display: flex;
+}
+.card > img{
+    height: 190px;
+    margin: 5px 10px 5px -5px;
+    width: 200px;
+}
+
+  #btnn{
+    background: linear-gradient(rgba(0, 0, 0, 0.95), rgb(0, 55, 79) , rgb(9, 93, 134), rgb(15, 155, 217));
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    margin-left: 500px;
+}
+#btnn:hover{
+    cursor: pointer;
+}
+
+
+#footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.95), rgb(0, 55, 79) , rgb(9, 93, 134), rgb(15, 155, 217));
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 900px;
+    width: 100%;
+    padding-top: 20px;
+    display: block;
+}

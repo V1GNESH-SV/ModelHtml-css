@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Oleo+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Mate+SC&family=Oleo+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mate SC", serif;
+}
+header {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.95),
+    rgb(0, 55, 79),
+    rgb(9, 93, 134),
+    rgb(15, 155, 217)
+  );
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+#logo {
+  font-family: "Oleo Script", system-ui;
+  font-weight: lighter;
+  font-size: 80px;
+}
+#description {
+  margin: 20px 0px 20px 200px;
+  font-size: 20px;
+}
+nav ul {
+  background-color: black;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: linear-gradient(
+    rgba(0, 0, 0, 0.95),
+    rgb(0, 55, 79),
+    rgb(9, 93, 134),
+    rgb(15, 155, 217)
+  );
+  font-size: 18px;
+  text-decoration: none;
+}
+nav ul li {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+main {
+  flex: 2;
+  padding: 20px;
+}
+
+.course {
+  background-color: rgb(9, 93, 134);
+  padding: 10px;
+  display: flex;
+}
+#cards {
+  width: 700px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.btn {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.95),
+    rgb(0, 55, 79),
+    rgb(9, 93, 134),
+    rgb(15, 155, 217)
+  );
+  color: white;
+}
+
+aside {
+  flex: 1;
+  height: 700px;
+  padding: 20px;
+  background: #e9ecef;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+#ul {
+  line-height: 50px;
+}
+#ul li {
+  list-style-type: disc;
+}
+
+.column {
+  float: left;
+  width: 24%;
+  padding: 0 10px;
+}
+.column > .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    
+  }
+.column > .card > img{
+   
+  width: 200px;
+ 
+}
+
+.row {
+  margin: 0 -5px;
+  width: 100%;
+}
+
+#btnn {
+    width: 200px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.95),
+    rgb(0, 55, 79),
+    rgb(9, 93, 134),
+    rgb(15, 155, 217)
+  );
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+#btnn:hover {
+  cursor: pointer;
+}
+
+#footer {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.95),
+    rgb(0, 55, 79),
+    rgb(9, 93, 134),
+    rgb(15, 155, 217)
+  );
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  margin-top: 20px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    margin-left: -30px;
+  }
+
+  aside {
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .course {
+    margin-left: -40px;
+  }
+  .column {
+    width: 80%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    border: 2px solid rgb(45, 45, 45);
+    width: 500px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+ 
+}

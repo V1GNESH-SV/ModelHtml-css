@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Oleo+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Mate+SC&family=Oleo+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mate SC", serif;
+}
+header {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.95),
+    rgb(0, 55, 79),
+    rgb(9, 93, 134),
+    rgb(15, 155, 217)
+  );
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+#logo {
+  font-family: "Oleo Script", system-ui;
+  font-weight: lighter;
+  font-size: 80px;
+}
+#description {
+  margin: 20px 0px 20px 200px;
+  font-size: 20px;
+}
+nav ul {
+  background-color: black;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: linear-gradient(
+    rgba(0, 0, 0, 0.95),
+    rgb(0, 55, 79),
+    rgb(9, 93, 134),
+    rgb(15, 155, 217)
+  );
+  font-size: 18px;
+  text-decoration: none;
+}
+nav ul li {
+  display: flex;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.95),
+        rgb(0, 55, 79),
+        rgb(9, 93, 134),
+        rgb(15, 155, 217)
+      );    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+#footer {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.95),
+      rgb(0, 55, 79),
+      rgb(9, 93, 134),
+      rgb(15, 155, 217)
+    );
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 20px;
+  }
